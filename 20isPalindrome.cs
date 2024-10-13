@@ -27,16 +27,16 @@
 //         // Console.WriteLine("Reversed string: " + new string(result));
 //     }
 
-//     static bool IsPalindrome(string input)
-//     {
-//         int left=0,right=input.Length-1;
+    static bool IsPalindrome(string input)
+    {
+        int left=0,right=input.Length-1;
 
-//         while(right>left)
-//         {
-//           if(input[left++]!=input[right--])
-//            return false;
-//         }
-//         return true;
-//     }
-// }
+        while(right>left)
+        {
+          if(input[left++]!=input[right--])
+           return false;
+        }
+        return true;
+    }
+}
 
