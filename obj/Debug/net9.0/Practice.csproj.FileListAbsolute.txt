@@ -1,0 +1,14 @@
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/bin/Debug/net9.0/Practice
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/bin/Debug/net9.0/Practice.deps.json
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/bin/Debug/net9.0/Practice.runtimeconfig.json
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/bin/Debug/net9.0/Practice.dll
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/bin/Debug/net9.0/Practice.pdb
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.AssemblyInfoInputs.cache
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.AssemblyInfo.cs
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.csproj.CoreCompileInputs.cache
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.dll
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/refint/Practice.dll
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.pdb
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.genruntimeconfig.cache
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/ref/Practice.dll
