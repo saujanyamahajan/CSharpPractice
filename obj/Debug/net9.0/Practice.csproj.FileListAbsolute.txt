@@ -12,3 +12,4 @@
 /Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.pdb
 /Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.genruntimeconfig.cache
 /Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/ref/Practice.dll
+/Users/saujanyamahajan/Documents/CSharpPractice/Practice/obj/Debug/net9.0/Practice.sourcelink.json
