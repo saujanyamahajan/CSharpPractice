@@ -13,21 +13,17 @@ class Program
     }
     public static void numFrequency(int[] num)
     {
-        Dictionary<int,int> dict = new Dictionary<int,int>();
-         foreach(int a in num)
-         {
-            if(dict.ContainsKey(a))
-            {
-                dict[a]+=1;
-            }
+        Dictionary<int,int> dict =new Dictionary<int,int>();
+        for(int i=0;i<num.Length;i++)
+        {
+            if(dict.ContainsKey(num[i]))
+                dict[num[i]]+=1;
             else
-            {
-                dict.Add(a,1);
-            }
-         }
-         foreach(KeyValuePair<int,int> ele in dict.OrderBy(e=>e.Key))
-         {
-            Console.WriteLine("Element : {0} - Frequency : {1}",ele.Key,ele.Value);
-         }
+            dict.Add(num[i],1);
+        }
+        foreach(var kvp in dict)
+        {
+            Console.WriteLine($"{kvp.Key} = {kvp.Value}");
+        }
     }
 }
