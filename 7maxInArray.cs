@@ -1,29 +1,28 @@
-// using System;
-// using System.Collections.Generic;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
-// class Program
-// {
-//     public static void Main()
-//     {
-//         Console.Write("Enter an array: ");
-//         string input = Console.ReadLine() ?? "";
 
-//         int[] num = Array.ConvertAll(input.Split(' '), int.Parse);
-//         int res = MaxArray(num);
-
-//         Console.WriteLine(res);
-//     }
-
-//     public static int MaxArray(int[] num)
-//     {
-//         int max = int.MinValue;
-
-//         foreach (int i in num)
-//         {
-//             if (i > max)
-//                 max = i;
-//         }
-
-//         return max;
-//     }
-// }
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("enter an array");
+         string input = Console.ReadLine() ?? "";
+         int[] num = Array.ConvertAll(input.Split(' '), int.Parse);
+         int res=MaxArray(num);
+         Console.WriteLine(res);
+    }
+    public static int MaxArray(int[] num)
+    {
+        int max=int.MinValue;
+        for(int i=0; i<num.Length;i++)
+        {
+            if(num[i]>max)
+            {
+                max=num[i];
+            }
+        }
+        return max;
+    }
+}
