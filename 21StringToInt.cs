@@ -16,3 +16,4 @@ class Program
         Console.WriteLine(n);
     }
 }
+// int num = int.Parse(str);
